@@ -23,6 +23,10 @@ namespace AntiTouchscreenPlus
         public MainWindow()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
+            WindowStyle = WindowStyle.None;
+            Background = Brushes.Black;
+            Cursor = Cursors.None;
         }
     }
 }
